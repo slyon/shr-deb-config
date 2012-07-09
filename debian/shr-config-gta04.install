@@ -1,0 +1,3 @@
+debian/tmp/gta04/etc/ ./
+debian/tmp/gta04/usr/ ./
+debian/tmp/gta04/boot/ ./

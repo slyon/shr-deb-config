@@ -1,0 +1,8 @@
+ABOUT:
+======
+This is designed to be a debian package, providing essential configuration files
+for SHR (e.g. for enlightenment, illume, frameworkd, X11, GTK, ...).
+
+BUILD:
+======
+dpkg-buildpackage -b

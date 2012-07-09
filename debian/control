@@ -1,0 +1,30 @@
+Source: shr-config
+Section: misc
+Priority: extra
+Maintainer: Lukas Märdian <lukasmaerdian@gmail.com>
+Build-Depends: autopoint,
+               debhelper (>=6),
+               dh-autoreconf,
+               libedje-bin (>= 1.2),
+               libeet-bin (>= 1.6),
+               quilt
+Standards-Version: 3.9.3
+Homepage: http://www.shr-project.org
+
+Package: shr-config
+Architecture: all
+Depends: ${misc:Depends}
+Recommends: shr-config-platform
+Description: Misc config files for SHR.
+ This package provides the files needed on all SHR devices.
+ .
+ It includes ringtones, bootlogo, ...
+
+Package: shr-config-gta04
+Architecture: all
+Depends: ${misc:Depends} shr-config (= ${binary:Version})
+Provides: shr-config-platform
+Description: Misc config files for SHR.
+ This package provides misc gta04 specific config files for SHR.
+ .
+ It includes configs for: x11, fso, gtk, udev, e17, ...
