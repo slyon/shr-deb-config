@@ -4,26 +4,20 @@ EXTRA_DIST = \
         profile.desktop \
         icon.png \
         e.src \
-        module.battery.src \
         module.illume-home.src \
         module.illume-keyboard.src \
         module.illume-indicator.src \
-        module.illume-softkey.src \
-        module.illume2.src \
-        module.conf.src
+        module.illume2.src
 
 filesdir = /gta04/$(datadir)/enlightenment/data/config/shr
 files_DATA = \
         profile.desktop \
         icon.png \
         e.cfg \
-        module.battery.cfg \
         module.illume-home.cfg \
         module.illume-keyboard.cfg \
         module.illume-indicator.cfg \
-        module.illume-softkey.cfg \
-        module.illume2.cfg \
-        module.conf.cfg
+        module.illume2.cfg
 
 SUFFIXES = .cfg
 
